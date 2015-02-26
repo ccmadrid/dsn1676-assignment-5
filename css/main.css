@@ -12,9 +12,55 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #ddd
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.container {
+	border: 1px solid #ccc;
+	border-radius: 1em;
+	overflow: hidden;
 
+}
+
+.top {
+	background-color: #eee;
+	padding: 1em;
+}
+
+.listcontainer {
+	padding: 1em;
+	background-color: #fff;
+}
+
+.js-item {
+	display: inline-block;
+	padding: 1em;
+	width: 90%;
+	text-decoration: none;
+	color: #000;
+	margin: 0;
+}
+
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.js-li {
+	display:;
+	width: 100%;
+}
+
+.js-close {
+	text-decoration: none;
+	color: #ccc;
+	padding: 0.5em;
+	margin: 0;
+	border: 1px solid #ccc;
+	border-radius: 0.5em;
+	background-color: #eee;
+}
