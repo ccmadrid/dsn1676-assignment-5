@@ -3,7 +3,7 @@ var $input = $('.input');
 var $list = $('.list');
 
 var $items = $('.list li');
-
+var $close = $('.js-close')
 
 $form.on('submit', function (e) {
 	e.preventDefault();
@@ -15,6 +15,10 @@ $form.on('submit', function (e) {
 
 	$li.append($inputA).append($close);
 	$list.append($li);
-	console.log($close);
+});
+
+$list.on('click', 'li', function (e) {
+	e.preventDefault();
+	console.log($list);
 
 });
