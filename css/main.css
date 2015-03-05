@@ -79,3 +79,7 @@ html {
 	border-radius: 0.5em;
 	background-color: #eee;
 }
+
+.finished {
+	color: red;
+}
