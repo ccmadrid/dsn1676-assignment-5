@@ -18,6 +18,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 .container {
 	border: 1px solid #ccc;
 	border-radius: 1em;
@@ -35,8 +36,23 @@ html {
 	text-align: center;
 }
 
-.form input {
+.input {
+	margin: 0;
+	padding: 0.5em;
+	height: 2.5em;
 	width: 80%;
+}
+
+.input:focus {
+	border: solid 2px #000;
+	box-shadow: none;
+	outline: 0 none;
+}
+
+.submit {
+	margin: 0;
+	height: 2.5em;
+	padding: 0.5em;
 }
 
 .top {
@@ -58,8 +74,13 @@ html {
 .finished {
 	color: #bbb;
 	text-decoration: line-through;
+	font-style: italic;
 }
 
 .close {
 	float: right;
+}
+
+.list li {
+	margin: 0.5em;
 }
