@@ -8,6 +8,11 @@ $form.on('submit', function (e) {
 	var $li = $('<li>').html($input.val());
 	var inputValue = $input.val();
 	var $close = $('<button class="close">X</button>')
+
+	$close.on('click', function () {
+		$li.remove('li');
+	})
+
 	if($input.val() != '') {
 		$li.append($close);
 		$list.prepend($li);
