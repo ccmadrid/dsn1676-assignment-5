@@ -18,7 +18,6 @@ $form.on('submit', function (e) {
 		$list.prepend($li);
 		$input.val('');
 	}
-
 });
 
 $list.on('click', 'li', function (e) {

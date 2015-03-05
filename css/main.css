@@ -79,8 +79,10 @@ html {
 
 .close {
 	float: right;
+	cursor: pointer;
 }
 
 .list li {
 	margin: 0.5em;
+	cursor: pointer;
 }
